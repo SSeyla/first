@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+.Contact{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 40px;
+}
+.color-all{
+  position: relative	;
+  display: flex;
+  top: 100px;
+  left: 40px;
+  width: 800px;
+  height: 368px;
+  box-shadow: 0px 10px 15px purple;
+  background-color: white;
+  flex-wrap: wrap;
+  
+}
+.navbar{
+  position: absolute;
+  width: 890px;
+  height: 55px;
+  background: purple;
+
+}
+body{
+  position: absolute;
+  display: flex;
+  width: 550px;
+  height: 704px;
+  background-color: whitesmoke;
+}
+.info{
+  position: absolute;
+  text-shadow: 1px 1px 5px ;
+  display: flex;
+  left: 40%;
+  bottom: 1px;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.stevjaw{
+  position: absolute;
+  display: flex;
+  text-shadow: 5px 1px 2px ;
+  display: flex;
+  left: 330px;
+  top: 26px;
+  font-weight: 630;
+  font-size: 12px;
+  letter-spacing: 2em;
+  color: #000000;
+}
+.public{
+  position: absolute;
+  display: flex;
+  left: 330px;
+  top: 14px;
+  color: rgb(255, 255, 255);
+}
+.fuji{
+  position: absolute;
+  display: flex;
+  top: 60px;
+  left: 386px;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 30px;
+}
+.japan{
+  position: absolute;
+  display: flex;
+  top: 50px;
+  left: 410px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2B283A;
+}
+.map{
+  position: absolute;
+  display: flex;
+  width: 146px;
+  height: 9px;
+  left: 526px;
+  top: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+.icon-map{
+  position: relative;
+  display: flex;
+  width: 7px;
+  height: 9px;
+  top: 56px;
+  left: 52px;
+  color: rgb(173, 0, 173);
+}
+.img-mountfuji{
+  position: relative;
+  display: flex;
+  height: 220px;
+  left: 39px;
+  top: 20%;
+  border-radius: 5px;
+}
+.date{
+  position: absolute;
+  display: flex;
+  left: 386px;
+  top: 145px;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 12px;
+  color: #2B283A;
+
+}
+.description{
+  position: absolute;
+  display: flex;
+  width: 356px;
+  left: 386px;
+  top: 175px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 190%;
+  color: #2B283A;
+}
